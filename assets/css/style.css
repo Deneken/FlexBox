@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  monospace;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  /* Principal */
+  .principal {
+    flex: 1;
+    max-width: 300px; 
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  /* Perfil */
+  .perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  
+  .perfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .separador {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* NuevoChat */
+  .nuevochat {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+/* Contactos */
+.contactos {
+    list-style: none;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  .contactos li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contactos img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .contacto-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacto-info p {
+    margin: 0;
+  }
+  
+  .contacto-info .estado {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Contenido */
+  .contenido {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+ .bienvenido {
+    text-align: center;
+  }
+  
+  .bienvenido img {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .bienvenido h2 {
+    font-size: 35px;
+    
+  }
+  
+  .bienvenido p {
+    font-size: 19px;
+    color: #666;
+    max-width: 500px; 
+    margin-top: 10px;
+  }
+  
+  .bienvenido strong{
+    color: black;
+    font-weight: bolder;
+
+  }
